@@ -9,10 +9,27 @@ intents:
   - mood_unhappy
   - bot_challenge
   - tour_plan
+  - option
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
+  - text: "Hello, thanks for asking"
+  - text: "Good to see you again"
+  - text: "Hi there, how can I help?"
+  - text: "Hi there"
+  - text: "Hi"
+  utter_option:
+  - text: "I can guide you through the tourism sector of Pakistan, from Gawadar to Skardu at your finger tips"
+  - text: "Offering help where needed to plan a tour anywhere in Pakistan"
+  - text: "I am your travel companion when no-one is yours"
+  - text: "Provide necessary information like hotels, facilities, and activities nearby your tourist destination"
+  - text: "Provide necessary information about your intended tourist destination"
+  - text: "Notify beforehand about the weather updates, so you can plan your trip accordingly"
+  - text: "Help you plan your trip beforehand"
+  - text: "Ease of information available for your tourist destination via Search filter of tour category or location"
+  - text: "Recommend tourist destinations according to your own taste of tourism"
+  - text: "A travel guide for within pakistan"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
