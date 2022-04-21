@@ -10,6 +10,7 @@ intents:
   - bot_challenge
   - tour_plan
   - option
+  - about
 
 responses:
   utter_greet:
@@ -19,6 +20,16 @@ responses:
   - text: "Hi there, how can I help?"
   - text: "Hi there"
   - text: "Hi"
+
+  utter_about:
+  - text: "I'm Chatter. I was made by three university seniors, Rafae, Naseer, and Usman, for their Final Year Project"
+  - text: "I'm Chatter, your tourism bot assistant"
+  - text: "I'm Chatter, an Artificial Intelligent bot"
+  - text: "You can call me Chatter :)"
+  - text: "Chatter come from three university seniors, Rafae, Naseer, and Usman"
+  - text: "I'm your travel assistant. How can I help you?"
+  - text: "My name: Chatter. My mission: To assist you. My favourite colour: Probably Black"
+
   utter_option:
   - text: "I can guide you through the tourism sector of Pakistan, from Gawadar to Skardu at your finger tips"
   - text: "Offering help where needed to plan a tour anywhere in Pakistan"
@@ -30,6 +41,7 @@ responses:
   - text: "Ease of information available for your tourist destination via Search filter of tour category or location"
   - text: "Recommend tourist destinations according to your own taste of tourism"
   - text: "A travel guide for within pakistan"
+ 
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -43,9 +55,12 @@ responses:
 
   utter_goodbye:
   - text: "Bye"
+  - text: "ok bye"
+  - text: "Ok bye! tc"
+  - text: "Sad to see you go :("
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a chatter, powered by Rasa."
 
 session_config:
   session_expiration_time: 60

@@ -22,22 +22,7 @@ nlu:
     - Hay
     - Hola
     - Hi there
-
-
-- intent: option
-  examples: |
-    - How you could help me?
-    - What do you do?
-    - What you can do?
-    - What help you provide?
-    - How you can be helpful?
-    - What support is offered?
-    - What services do you offer?
-    - Your functionalities?
-    - What is your objective?
-    - Your objective?
-    - your purpose
-
+    - how are you?
 
 - intent: about
   examples: |
@@ -45,7 +30,6 @@ nlu:
     - What are you?
     - who made you?
     - who are you?
-    - what can you do? 
     - What is Chatter?
     - who is chatter?
     - I need to know who you are
@@ -59,6 +43,28 @@ nlu:
     - tell me who made you
     - where did you come from?
     - where did Chatter come from?
+    - Your name?
+    - What's your name?
+
+- intent: option
+  examples: |
+    - How you could help me?
+    - What do you do?
+    - What you can do?
+    - What help you provide?
+    - How you can be helpful?
+    - What support is offered?
+    - What services do you offer?
+    - Your functionalities?
+    - What is your objective?
+    - Your objective?
+    - What do you do?
+    - your purpose
+    - what can you do for me
+
+
+
+
 
 - intent: goodbye
   examples: |

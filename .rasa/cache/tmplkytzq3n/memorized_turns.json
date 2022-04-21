@@ -1,0 +1,15 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQIwrPItzEnMzk2trYwHdQlEt": "utter_greetIslamic",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQIwrPItzEnMzk0lwDEwHAfNiAQfLb8M=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQIwrPItzEnMzk0lwDEwHReYRcFpufn4KyLZEoB9jAeGRi6E=": "utter_happy",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQIwrPItzEnMzk0lwDEwHReYRcFpufn4KyLZEIkMpI7GgoBK/MbEAYhymyA==": "action_listen",
+    "eJylkG0KgCAMhq/iATqBN+gMETJqlJAf6ApCvHuK9Vurfxt79+xhQ4gdC9bhIWAiaTRnoRRCg0LO7maTnlCn7O7RpYzUqSXOFodIscLYidCJEv1GaLHo/QZKTi9kno1fvIqaMmbO16DxSytYe/7BVHyMzeMYxwvmHMEe": "utter_option",
+    "eJylkG0KgCAMhq/iATqBN+gMETJqlJAf6ApCvHtK9TO0+rexd88e1oXYsGAdbgIGkkZzFs5CaFDI2dUs0hPqlF09upSROrXE2eQQKRYYKxE6cUa/EWosWr+AksMLmXvjF6+gpowZ8zWo/NIM1u5/MAUfY/O4zuXKPjL6A61v2zQ=": "action_listen",
+    "eJylkNENhCAMhldhACdgg5vBGNLjGiURSqBcciHuLkZ9hsM3Gv5+/doxb4PIPuBXgWZDTop8PpQDi1JcxWoioyvZFDGUjHGlZCnmgMhbhZGYMagz2kdosXjFFazRf8jcHY94FTVL9DmmQeOVFvD+9wRT8SF/fLe5XNlORkUE3pTKMtMOXUD1DA==": "utter_about",
+    "eJylkNEJwyAQQFdxgE7gBpmhFLkkRytET/QsFMnuNWg+gyb58/D5fNwzrQ+RnMevgok1WSlSOSgLBqWow6IDo81sDOgzo20eWYq3R+S14YjM6FVBrxl6KoawgNHTiZj9xS1fI80Qzdtv0LmlDzj3u6Np9JDbrvtaKnvR0QiBkWLnTgp6ZHj9Ac6WDjU=": "action_listen"
+  }
+}
