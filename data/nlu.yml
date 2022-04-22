@@ -4,6 +4,7 @@ nlu:
 - intent: greet
   examples: |
     - hey
+    - hey chatter 
     - hello
     - hi
     - hello there
@@ -62,7 +63,42 @@ nlu:
     - your purpose
     - what can you do for me
 
+- intent: help
+  examples: |
+    - Could you help me?
+    - give me a hand please
+    - Can you help?
+    - I need a support
+    - I need a help
+    - support me please
+    - I need help
+    - Help please
 
+- intent: Search
+  examples: |
+    - How can I search for any location?
+    - How can I search for any tour category
+    - Where can I find the information about any location?
+    - Find me a Hill Station
+    - Find me a valley anywhere in Pakistan
+    - Find me a valley
+    - Find me a coastal area
+    - Find me a coast
+    - Find me a desert
+    - Find me a fort
+    - Find me an island
+    - Find me a lake
+    - Find me a mine
+    - Find me a monument
+    - Find me a mosque
+    - Find me a mountain
+    - Find me a mountain in Pakistan
+    - Find me a museum
+    - Find me a museum in pakistan
+    - Find me a national park
+    - Find me a temple in pakistan
+    - Find me a temple
+    - 
 
 
 

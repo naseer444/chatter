@@ -11,6 +11,8 @@ intents:
   - tour_plan
   - option
   - about
+  - help
+  - Search
 
 responses:
   utter_greet:
@@ -32,20 +34,32 @@ responses:
 
   utter_option:
   - text: "I can guide you through the tourism sector of Pakistan, from Gawadar to Skardu at your finger tips"
-  - text: "Offering help where needed to plan a tour anywhere in Pakistan"
+  - text: "Offering help where needed to plan a tour anywhere in Pakistan (being of many features)"
   - text: "I am your travel companion when no-one is yours"
   - text: "Provide necessary information like hotels, facilities, and activities nearby your tourist destination"
-  - text: "Provide necessary information about your intended tourist destination"
+  - text: "Provide necessary information about your intended tourist destination (being of many features)"
   - text: "Notify beforehand about the weather updates, so you can plan your trip accordingly"
-  - text: "Help you plan your trip beforehand"
+  - text: "Help you plan your trip beforehand (being of many features)"
   - text: "Ease of information available for your tourist destination via Search filter of tour category or location"
-  - text: "Recommend tourist destinations according to your own taste of tourism"
+  - text: "Recommend tourist destinations according to your own taste of tourism (being of many features)"
   - text: "A travel guide for within pakistan"
+
+  utter_help:
+  - text: "Tell me how can I assist you"
+  - text: "Tell me your problem to assist you"
+  - text: "Yes Sure, How can I support you"
+  - text: "Sure, How can I help you specifically"
+
+  utter_search:
+  - text: "Type the name of the destination or tour category in the search box at home page."
+  - text: "Whether it's Hill station, Valley, Coast, Desert, Fort, Island, Waterfall, Mountain, Mosque, Monument, Museum, National Park or Lake, Just type in the name of intended category in search box"
+  - text: "Just type in the search box at Home Page of our app for any location"
  
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Everyone is! Be Patient always :)"
 
   utter_did_that_help:
   - text: "Did that help you?"

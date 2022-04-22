@@ -6,19 +6,46 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
   - intent: about
   - action: utter_about
   - intent: option
   - action: utter_option
+  - intent: help
+  - action: utter_help
+  - intent: Search
+  - action: utter_search
+  - intent: goodbye
+  - action: utter_goodbye
 
-- story: sad path 1
+- story: user needs help
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: about
+  - action: utter_about
+  - intent: option
+  - action: utter_option
+  - intent: Search
+  - action: utter_search
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: help
+  - action: utter_help
+
+- story: greet k baad help
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help
+  - action: utter_help
+
+- story: about k baad option
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about
+  - action: utter_about
+  - intent: option
+  - action: utter_option
+  - intent: help
+  - action: utter_help
