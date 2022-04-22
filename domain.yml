@@ -1,5 +1,6 @@
 version: "3.1"
 
+
 intents:
   - greet
   - goodbye
@@ -75,6 +76,8 @@ responses:
 
   utter_iamabot:
   - text: "I am a chatter, powered by Rasa."
+
+  
 
 session_config:
   session_expiration_time: 60
