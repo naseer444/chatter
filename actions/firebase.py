@@ -23,12 +23,15 @@ pyrebase.pyrebase.quote = noquote
 
 db=firebase.database()
 
-locations = db.child("Locations").order_by_child("category").get()
+#locations = db.child("Locations").order_by_child("category").get()
 
+locations = db.child("Locations").order_by_child("category").equal_to("Lake").get();
 
-print(locations)
-# for loc in locations.each():
-#     print(locations.val())
+ 
+for loc in locations.each():
+    print(loc.val()['name'])
+    print(loc.val()['Desc'])
+    print("\n")
     
 
 # for task in locations.each():
