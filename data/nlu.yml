@@ -79,28 +79,57 @@ nlu:
     - How can I search for any location?
     - How can I search for any tour category
     - Where can I find the information about any location?
-    - Find me a Hill Station
-    - Find me a valley anywhere in Pakistan
-    - Find me a valley
     - Find me a coastal area
     - Find me a coast
     - Find me a desert
     - Find me a fort
     - Find me an island
-    - Find me a lake
+    - Find me lakes
+    - find me lakes in pakistan
+    - lakes in pakistan?
     - Find me a mine
     - Find me a monument
-    - Find me a mosque
-    - Find me a mountain
-    - Find me a mountain in Pakistan
     - Find me a museum
     - Find me a museum in pakistan
-    - Find me a national park
     - Find me a temple in pakistan
     - Find me a temple
     
+- intent: SearchValley
+  examples: |
+    - Find me valleys anywhere in Pakistan
+    - Find me valleys
+    - find me valleys in pakistan
+
+- intent: SearchNationalPark
+  examples: |
+    - fine me national parks of pakistan
+    - find national parks
+    - national parks in pakistan?
 
 
+- intent: SearchMosques
+  examples: |
+    - fine me mosques of pakistan
+    - find mosques
+    - mosques in pakistan?
+
+- intent: SearchHill
+  examples: |
+    - fine me hill stations of pakistan
+    - find hill stations
+    - hill stations in pakistan?
+
+- intent: SearchWaterfall
+  examples: |
+    - fine me waterfalls in pakistan
+    - find waterfalls
+    - waterfalls in pakistan?
+
+- intent: SearchMountains
+  examples: |
+    - fine me mountains in pakistan
+    - find mountains
+    - mountains in pakistan?
 
 - intent: goodbye
   examples: |

@@ -8,12 +8,8 @@ stories:
   - action: utter_greet
   - intent: about
   - action: utter_about
-  - intent: option
-  - action: utter_option
   - intent: help
   - action: utter_help
-  - intent: Search
-  - action: utter_search
   - intent: goodbye
   - action: utter_goodbye
 
@@ -25,8 +21,6 @@ stories:
   - action: utter_about
   - intent: option
   - action: utter_option
-  - intent: Search
-  - action: utter_search
   - intent: goodbye
   - action: utter_goodbye
   - intent: help
@@ -45,8 +39,45 @@ stories:
   - action: utter_greet
   - intent: about
   - action: utter_about
-  - intent: option
-  - action: utter_option
   - intent: help
   - action: utter_help
 
+- story: search lake
+  steps:
+    - intent: Search
+    - action: action_hello_world
+
+- story: search valley
+  steps:
+    - intent: SearchValley
+    - action: action_valley
+
+- story: search national parks
+  steps:
+    - intent: SearchNationalPark
+    - action: action_NationalParks
+
+
+- story: search mosques
+  steps:
+    - intent: SearchMosques
+    - action: action_Mosques
+
+- story: search hill stations
+  steps:
+    - intent: SearchHill
+    - action: action_hill
+
+- story: search waterfalls
+  steps:
+    - intent: SearchWaterfall
+    - action: action_waterfall
+
+
+- story: search mountains
+  steps:
+    - intent: SearchMountains
+    - action: action_mountain
+
+        
+    
