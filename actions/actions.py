@@ -15,13 +15,13 @@ import requests
 from rasa_sdk.events import SlotSet, FollowupAction
 
 
-from firebaseRetrieval import funcLake
-from firebaseRetrieval import funcValley
-from firebaseRetrieval import funcNationalParks
-from firebaseRetrieval import funcMosques
-from firebaseRetrieval import funcHill
-from firebaseRetrieval import funcWaterfall
-from firebaseRetrieval import funcMountain
+from .firebaseRetrieval import funcLake
+from .firebaseRetrieval import funcValley
+from .firebaseRetrieval import funcNationalParks
+from .firebaseRetrieval import funcMosques
+from .firebaseRetrieval import funcHill
+from .firebaseRetrieval import funcWaterfall
+from .firebaseRetrieval import funcMountain
 
 
 

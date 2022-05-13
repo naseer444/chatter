@@ -35,6 +35,8 @@ def funcLake():
     tempArr=[]
     for loc in locations.each():
         tempArr.append(loc.val()['name'])
+        tempArr.append("Rating:")
+        tempArr.append(loc.val()['rating'])
         tempArr.append(loc.val()['Desc'])
        
        
@@ -56,6 +58,8 @@ def funcValley():
     tempArr=[]
     for loc in locations.each():
         tempArr.append(loc.val()['name'])
+        tempArr.append("Rating:")
+        tempArr.append(loc.val()['rating'])
         tempArr.append(loc.val()['Desc'])
        
        
@@ -77,6 +81,8 @@ def funcNationalParks():
     tempArr=[]
     for loc in locations.each():
         tempArr.append(loc.val()['name'])
+        tempArr.append("Rating:")
+        tempArr.append(loc.val()['rating'])
         tempArr.append(loc.val()['Desc'])
        
        
@@ -97,6 +103,8 @@ def funcMosques():
     tempArr=[]
     for loc in locations.each():
         tempArr.append(loc.val()['name'])
+        tempArr.append("Rating:")
+        tempArr.append(loc.val()['rating'])
         tempArr.append(loc.val()['Desc'])
        
        
@@ -116,6 +124,8 @@ def funcHill():
     tempArr=[]
     for loc in locations.each():
         tempArr.append(loc.val()['name'])
+        tempArr.append("Rating:")
+        tempArr.append(loc.val()['rating'])
         tempArr.append(loc.val()['Desc'])
        
        
@@ -136,6 +146,8 @@ def funcWaterfall():
     tempArr=[]
     for loc in locations.each():
         tempArr.append(loc.val()['name'])
+        tempArr.append("Rating:")
+        tempArr.append(loc.val()['rating'])
         tempArr.append(loc.val()['Desc'])
        
        
@@ -157,6 +169,8 @@ def funcMountain():
     tempArr=[]
     for loc in locations.each():
         tempArr.append(loc.val()['name'])
+        tempArr.append("Rating:")
+        tempArr.append(loc.val()['rating'])
         tempArr.append(loc.val()['Desc'])
        
        
